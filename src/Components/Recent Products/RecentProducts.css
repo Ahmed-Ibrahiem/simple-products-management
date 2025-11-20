@@ -1,0 +1,15 @@
+.recent_products_list {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  gap: 10px;
+}
+
+.recent_products_list .no_products {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

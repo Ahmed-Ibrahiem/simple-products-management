@@ -1,0 +1,17 @@
+.About .content {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.About .content .sidebar {
+ width: max(28% , 350px);
+}
+.About .content .main {
+  width: 55%;
+  flex-grow: 1;
+   display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

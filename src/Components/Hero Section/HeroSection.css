@@ -1,0 +1,77 @@
+.hero_section {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border: 1px solid var(--border);
+  background-color: var(--hover);
+  padding: 20px;
+  border-radius: var(--roundes-md);
+}
+.hero_section .left_hero {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.hero_section .left_hero h1 {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--text);
+}
+.hero_section .left_hero p {
+  font-size: var(--font-size-md);
+  color: var(--gray);
+}
+.hero_section .right_hero {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero_section .right_hero button {
+  padding: 10px 15px;
+  background-color: var(--primary);
+  color: var(--primary-forground);
+  border-radius: var(--roundes-sm);
+  font-size: var(--font-size-md);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .hero_section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .hero_section .left_hero{
+    width: 100%;
+    align-items: center;
+  }
+  .hero_section .left_hero h1,
+  .hero_section .left_hero p {
+    text-align: center;
+  }
+  .hero_section .right_hero {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .hero_section .right_hero button {
+    width: 100%;
+    justify-content: center;
+    font-size: var(--font-size-sm);
+  }
+}
+@media (max-width: 480px) {
+  .hero_section .right_hero {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+  .hero_section .right_hero button {
+    width: 100%;
+    font-size: var(--font-size-sm);
+  }
+}
+/* End of src/Components/Hero Section/HeroSection.css */

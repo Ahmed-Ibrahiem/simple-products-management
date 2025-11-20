@@ -1,0 +1,74 @@
+.About .main .team {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: var(--border);
+  background-color: var(--hover);
+  border-radius: var(--roundes-md);
+  padding: 20px;
+  position: relative;
+}
+.About .main .team .title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  > i,
+  h2 {
+    font-size: var(--font-size-lg);
+    color: var(--forground);
+  }
+}
+.About .main .team .members {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.About .main .team .members .member {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 2px solid var(--border);
+  border-radius: var(--roundes-md);
+}
+.About .main .team .members .member .img_box {
+  width: 50px;
+  height: 50px;
+  border-radius: var(--roundes-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  > img {
+    max-width: none;
+    max-height: none;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+.About .main .team .members .member .text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.About .main .team .members .member .text p {
+  font-size: var(--font-size-sm);
+  color: var(--gray);
+}
+.About .main .team .members .member .text h3 {
+  font-size: var(--font-size-md);
+  font-weight: 700;
+  color: var(--forground);
+}
+@media (max-width: 870px) {
+  .About .main .description .title {
+    > i,
+    h2 {
+      font-size: var(--font-size-md);
+    }
+  }
+  .About .main .team .members .member .text h3 {
+    font-size: var(--font-size-sm);
+  }
+}

@@ -1,0 +1,106 @@
+.new_product_form {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.2);
+  transition-timing-function: 08s ease-out;
+  visibility: hidden;
+}
+.new_product_form.close {
+  transition: 0.6s 0.5s;
+  visibility: hidden;
+  top: -100%;
+}
+.new_product_form.open {
+  visibility: visible;
+  transition: 0.6s 0s;
+  top: 0;
+}
+.new_product_form .content {
+  max-width: 90%;
+  width: 400px;
+  border: 2px solid var(--border);
+  border-radius: var(--roundes-md);
+  background-color: var(--primary-forground);
+  overflow: hidden;
+  transition: 0.5s 0.6s;
+}
+.new_product_form.close .content {
+  transition: 0.4s 0s;
+  height: 0;
+  padding: 0;
+  visibility: hidden;
+}
+.new_product_form.open .content {
+  visibility: visible;
+  height: 550px;
+  padding: 15px;
+}
+.new_product_form .content h1 {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+}
+.new_product_form .content > form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.new_product_form .content > form .section {
+  position: relative;
+}
+.new_product_form .content > form .section > label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  font-size: var(--font-size-sm);
+  padding: 0 5px;
+  background-color: var(--primary-forground);
+  color: var(--gray);
+  user-select: none;
+  cursor: pointer;
+}
+.new_product_form .content > form .section > input.not_valid {
+  border-color: var(--destructive);
+}
+.new_product_form .content > form .section > input:focus + label,
+.new_product_form .content > form .section > input.up + label {
+  top: -10px;
+  transform: translateY(0);
+}
+
+.new_product_form .content > form button {
+  font-size: var(--font-size-md);
+  padding: 8px 16px;
+  border-radius: var(--roundes-sm);
+  color: var(--primary);
+  background-color: var(--secondry);
+  font-weight: 500;
+}
+.new_product_form .content > form button.valid {
+  background-color: var(--primary);
+  color: var(--primary-forground);
+}
+.new_product_form .content > form button.not_valid {
+  background-color: var(--border);
+  color: var(--gray);
+  cursor: not-allowed;
+}
+.new_product_form .content > form button:nth-of-type(2) {
+  background-color: var(--border);
+  color: var(--gray);
+}
+.new_product_form .content > form .section .select {
+  padding-left: 20px;
+}
+.new_product_form .content > form .section .select .options span {
+  padding-left: 20px;
+}

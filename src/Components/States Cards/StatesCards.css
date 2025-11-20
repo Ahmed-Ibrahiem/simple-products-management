@@ -1,0 +1,30 @@
+.states_cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+.state_card {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 200px;
+  background-color: var(--secondry);
+  padding: 10px;
+  border-radius: var(--roundes-md);
+}
+.state_card h3 {
+  font-weight: 400;
+  font-size: var(--font-size-sm);
+  color: var(--gray);
+}
+.state_card span {
+  font-weight: 600;
+  color: var(--primary);
+  font-size: var(--font-size-md);
+}

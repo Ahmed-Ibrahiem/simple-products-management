@@ -1,0 +1,40 @@
+.About .header {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.About .header h1 {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+}
+.About .header .about_actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.About .header .about_actions button {
+  font-size: var(--font-size-md);
+  color: var(--primary);
+  background-color: var(--secondry);
+  padding: 8px 16px;
+  border-radius: var(--roundes-sm);
+}
+.About .header .about_actions button.contact_support {
+  color: var(--primary-forground);
+  background-color: var(--primary);
+}
+@media (max-width: 730px) {
+  .About .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .About .header h1 {
+    font-size: var(--font-size-md);
+  }
+  .About .header .about_actions button {
+    font-size: var(--font-size-sm);
+  }
+}

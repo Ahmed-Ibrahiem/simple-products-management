@@ -1,0 +1,65 @@
+.confirm_message {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirm_message .content {
+  max-width: 90%;
+  width: 400px;
+  height: 400px;
+  border-radius: var(--roundes-md);
+  box-shadow: var(--shadow-lg);
+  border: 2px solid var(--border);
+  background-color: var(--primary-forground);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.confirm_message.hide {
+  opacity: 0;
+  scale: 0.9;
+  visibility: hidden;
+}
+
+.confirm_message.show {
+  opacity: 1;
+  scale: 1;
+  visibility: visible;
+}
+
+.confirm_message h1 {
+  font-size: var(--font-size-lg);
+  color: var(--gray);
+  text-align: center;
+}
+
+.confirm_message .desiction_buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.confirm_message .desiction_buttons button {
+  padding: 8px 16px;
+  border-radius: var(--roundes-sm);
+  font-size: var(--font-size-md);
+  color: var(--gray);
+  background-color: var(--border);
+  font-weight: 500;
+}
+
+.confirm_message .desiction_buttons button.confirm {
+  background-color: var(--primary);
+  color: var(--primary-forground);
+}

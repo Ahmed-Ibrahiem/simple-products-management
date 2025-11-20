@@ -1,0 +1,91 @@
+.grid_products .product {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--border);
+  border-radius: var(--roundes-md);
+  overflow: hidden;
+  cursor: pointer;
+  animation: simple_animetion 0.8s;
+}
+.grid_products .product .img_box {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.grid_products .product .img_box img {
+  max-width: none;
+  max-height: none;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: fill;
+  transition: 0.5s;
+}
+.grid_products .product:hover .img_box img {
+  scale: 1.1;
+  rotate: -5deg;
+}
+.grid_products .product .product_details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.grid_products .product .product_details .title {
+  font-size: var(--font-size-md);
+  font-weight: 600;
+}
+.grid_products .product .product_details .product_price_categroy,
+.grid_products .product .product_details .product_info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.grid_products .product .product_details .product_price_categroy span,
+.grid_products .product .product_details .product_info span {
+  font-size: var(--font-size-md);
+  font-weight: 400;
+  color: var(--gray);
+}
+.grid_products .product .product_details .product_price_categroy span.category {
+  padding: 6px 10px;
+  padding-bottom: 8px;
+  color: var(--primary);
+  background-color: var(--secondry);
+  border-radius: 30px;
+}
+.grid_products .product .product_details .actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.grid_products .product .product_details .actions button {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: var(--roundes-sm);
+  background-color: var(--secondry);
+  color: var(--primary);
+  > span {
+    font-size: var(--font-size-md);
+    font-weight: 500;
+  }
+}
+.grid_products .product .product_details .actions button.delete {
+  color: var(--primary-forground);
+  background-color: var(--primary);
+}
+@media (max-width: 768px) {
+  .grid_products .product .product_details .actions button span,
+  .grid_products .product .product_details .product_price_categroy span,
+  .grid_products .product .product_details .product_info span {
+    font-size: var(--font-size-sm);
+  }
+}

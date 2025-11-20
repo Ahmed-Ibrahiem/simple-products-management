@@ -1,0 +1,61 @@
+.About .main .support {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: var(--border);
+  background-color: var(--hover);
+  border-radius: var(--roundes-md);
+  padding: 20px;
+  position: relative;
+}
+.About .main .support .title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  > i,
+  h2 {
+    font-size: var(--font-size-lg);
+    color: var(--forground);
+  }
+}
+.About .main .support .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.About .main .support .content p {
+  color: var(--gray);
+  font-size: var(--font-size-md);
+}
+.About .main .support .content .right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.About .main .support .content .right button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 16px;
+  border-radius: var(--roundes-sm);
+  background-color: var(--border);
+  font-size: var(--font-size-md);
+  color: var(--gray);
+}
+.About .main .support .content .right button.contact_us {
+  background-color: var(--primary);
+  color: var(--primary-forground);
+}
+@media (max-width: 870px) {
+  .About .main .support .title {
+    > i,
+    h2 {
+      font-size: var(--font-size-md);
+    }
+  }
+  .About .main .support .content p,
+  .About .main .support .content .right button {
+    font-size: var(--font-size-sm);
+  }
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "Walnut Chair",
+    "category": "Office",
+    "price": 1200.6,
+    "sku": "SKU-1000",
+    "stock": 75,
+    "image": "/images/Walnut_Chair.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Modern Sofa",
+    "category": "Decor",
+    "price": 182.74,
+    "sku": "SKU-1001",
+    "stock": 35,
+    "image": "/images/Modern_Sofa.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Office Desk",
+    "category": "Appliances",
+    "price": 1491.01,
+    "sku": "SKU-1002",
+    "stock": 17,
+    "image": "/images/Office_Desk.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Wooden Table",
+    "category": "Decor",
+    "price": 1567.96,
+    "sku": "SKU-1003",
+    "stock": 83,
+    "image": "/images/Wooden_Table.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Bookshelf",
+    "category": "Appliances",
+    "price": 793.42,
+    "sku": "SKU-1004",
+    "stock": 48,
+    "image": "/images/Bookshelf.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Gaming Chair",
+    "category": "Office",
+    "price": 798.44,
+    "sku": "SKU-1005",
+    "stock": 63,
+    "image": "/images/Gaming_Chair.jpg"
+  },
+  {
+    "id": 7,
+    "name": "LED Monitor",
+    "category": "Office",
+    "price": 1116.04,
+    "sku": "SKU-1006",
+    "stock": 50,
+    "image": "/images/LED_Monitor.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 430.02,
+    "sku": "SKU-1007",
+    "stock": 24,
+    "image": "/images/Bluetooth_Speaker.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Coffee Maker",
+    "category": "Office",
+    "price": 118.15,
+    "sku": "SKU-1008",
+    "stock": 9,
+    "image": "/images/Coffee_Maker.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Taplet Infenix",
+    "category": "Office",
+    "price": 1717.7,
+    "sku": "SKU-1009",
+    "stock": 54,
+    "image": "/images/Taplet_Infenix.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Laptop",
+    "category": "Appliances",
+    "price": 362.59,
+    "sku": "SKU-1010",
+    "stock": 67,
+    "image": "/images/Laptop.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Headphones",
+    "category": "Office",
+    "price": 1809.53,
+    "sku": "SKU-1011",
+    "stock": 43,
+    "image": "/images/Headphones.jpeg"
+  },
+  {
+    "id": 13,
+    "name": "Floor Lamp",
+    "category": "Electronics",
+    "price": 744.75,
+    "sku": "SKU-1012",
+    "stock": 10,
+    "image": "/images/Floor_Lamp.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Table Lamp",
+    "category": "Electronics",
+    "price": 739.0,
+    "sku": "SKU-1013",
+    "stock": 19,
+    "image": "/images/Table_Lamp.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Wall Clock",
+    "category": "Appliances",
+    "price": 129.16,
+    "sku": "SKU-1014",
+    "stock": 75,
+    "image": "/images/Wall_Clock.jpg"
+  },
+  {
+    "id": 16,
+    "name": "TV Stand",
+    "category": "Furniture",
+    "price": 1238.76,
+    "sku": "SKU-1015",
+    "stock": 19,
+    "image": "/images/TV_Stand.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Bed Frame",
+    "category": "Electronics",
+    "price": 1036.1,
+    "sku": "SKU-1016",
+    "stock": 48,
+    "image": "/images/Bed_Frame.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Mattress",
+    "category": "Decor",
+    "price": 420.7,
+    "sku": "SKU-1017",
+    "stock": 94,
+    "image": "/images/Mattress.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Wardrobe",
+    "category": "Furniture",
+    "price": 1468.31,
+    "sku": "SKU-1018",
+    "stock": 64,
+    "image": "/images/Wardrobe.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Dining Set",
+    "category": "Appliances",
+    "price": 1296.29,
+    "sku": "SKU-1019",
+    "stock": 6,
+    "image": "/images/Dining_Set.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Microwave",
+    "category": "Appliances",
+    "price": 1747.76,
+    "sku": "SKU-1020",
+    "stock": 100,
+    "image": "/images/Microwave.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Refrigerator",
+    "category": "Decor",
+    "price": 496.46,
+    "sku": "SKU-1021",
+    "stock": 26,
+    "image": "/images/Refrigerator.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Oven",
+    "category": "Appliances",
+    "price": 580.24,
+    "sku": "SKU-1022",
+    "stock": 56,
+    "image": "/images/Oven.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Washing Machine",
+    "category": "Furniture",
+    "price": 1176.43,
+    "sku": "SKU-1023",
+    "stock": 0,
+    "image": "/images/Washing_Machine.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Vacuum Cleaner",
+    "category": "Appliances",
+    "price": 736.24,
+    "sku": "SKU-1024",
+    "stock": 64,
+    "image": "/images/Vacuum_Cleaner.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Fan",
+    "category": "Appliances",
+    "price": 36.68,
+    "sku": "SKU-1025",
+    "stock": 20,
+    "image": "/images/Fan.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Air Conditioner",
+    "category": "Furniture",
+    "price": 233.1,
+    "sku": "SKU-1026",
+    "stock": 90,
+    "image": "/images/Air_Conditioner.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Heater",
+    "category": "Appliances",
+    "price": 813.4,
+    "sku": "SKU-1027",
+    "stock": 16,
+    "image": "/images/Heater.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Camera",
+    "category": "Electronics",
+    "price": 36.16,
+    "sku": "SKU-1028",
+    "stock": 63,
+    "image": "/images/Camera.jpeg"
+  },
+  {
+    "id": 30,
+    "name": "Printer",
+    "category": "Electronics",
+    "price": 575.86,
+    "sku": "SKU-1029",
+    "stock": 83,
+    "image": "/images/Printer.jpg"
+  }
+]

@@ -1,0 +1,56 @@
+.products_grid {
+  padding: 15px;
+  border: 1px solid var(--border);
+  border-radius: var(--roundes-md);
+  margin-top: 15px;
+  box-shadow: var(--shadow-sm);
+}
+.products_grid .grid_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.products_grid .grid_header p {
+  font-size: var(--font-size-md);
+  font-weight: 600;
+  color: var(--gray);
+}
+.products_grid .grid_header .actions_btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.products_grid .grid_header .actions_btns button {
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--roundes-sm);
+  font-size: var(--font-size-md);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.3s ease;
+  background-color: var(--secondry);
+  font-weight: 500;
+}
+.products_grid .grid_header .actions_btns button.view_products {
+  background-color: var(--border);
+  color: var(--gray);
+}
+.products_grid .no_products_available {
+  text-align: center;
+  padding: 30px 0;
+  border: 2px dotted var(--border);
+}
+.products_grid .no_products_available h2 {
+  color: var(--gray);
+  font-weight: 400;
+  font-size: var(--font-size-md);
+}
+@media (max-width: 870px) {
+  .products_grid .grid_header .actions_btns button,
+  .products_grid .grid_header p {
+    font-size: var(--font-size-sm);
+  }
+}

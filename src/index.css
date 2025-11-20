@@ -1,0 +1,200 @@
+:root {
+  --background: #ffffff;
+  --gray: #6b7280;
+  --forground: #000000;
+  --border: #e8e8e8;
+  --input: #e8e8e8;
+  --primary: #ff5b27;
+  --secondry: #ffded4;
+  --primary-forground: #ffffff;
+  --seccesful: #00c417;
+  --accent: #ff5b27;
+  --destructive: #ff0000;
+  --roundes-sm: 4px;
+  --roundes-md: 8px;
+  --roundes-lg: 12px;
+  --roundes-xl: 24px;
+  --hover: #f5f5f5;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.2);
+  --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --font-size-sm: 12px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 24px;
+  --transition: all 0.4s ease;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  transition: var(--transition);
+  user-select: none;
+  -webkit-user-drag: none;
+}
+h1 {
+  margin: 0 !important;
+  padding: 0;
+}
+.div_container {
+  width: 95%;
+  background-color: var(--background);
+  margin: 0 auto;
+}
+body {
+  background-color: var(--background);
+  color: var(--forground);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  transition: 0.2s;
+}
+button:active {
+  scale: 0.9;
+}
+input,
+textarea {
+  border: 1px solid var(--border);
+  padding: 10px;
+  border-radius: var(--roundes-sm);
+  font-size: var(--font-size-sm);
+  width: 100%;
+  box-sizing: border-box;
+}
+input:focus,
+textarea:focus {
+  border-color: var(--gray);
+  box-shadow: var(--shadow-sm);
+  outline: none;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  appearance: none;
+}
+ul {
+  list-style: none;
+}
+.select {
+  border: 1px solid var(--border);
+  padding: 10px;
+  border-radius: var(--roundes-sm);
+  font-size: var(--font-size-sm);
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--background);
+  color: var(--forground);
+  cursor: pointer;
+  appearance: none;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  > i.active {
+    rotate: 90deg;
+  }
+}
+.select .options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background);
+  border: 1px solid var(--border);
+  border-radius: var(--roundes-sm);
+  box-shadow: var(--shadow-md);
+  z-index: 100;
+  max-height: 200px;
+  overflow-y: auto;
+  flex-direction: column;
+  animation: simple_animetion2 0.3s;
+  > span {
+    padding: 5px 10px;
+    cursor: pointer;
+    color: var(--gray);
+    font-weight: 500;
+  }
+  > span:hover {
+    color: var(--forground);
+    background-color: var(--hover);
+  }
+}
+select:focus {
+  border-color: var(--gray);
+  box-shadow: var(--shadow-sm);
+  outline: none;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+::-webkit-scrollbar {
+  appearance: none;
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+}
+::-webkit-scrollbar-track {
+  background-color: var(--hover);
+}
+
+/* animation */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+.fade-out {
+  animation: fadeOut 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-30px, -30px);
+  }
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes simple_animetion {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes simple_animetion2 {
+  0% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

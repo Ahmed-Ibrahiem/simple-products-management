@@ -1,0 +1,12 @@
+.grid_products {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.grid_products .product {
+  flex-grow: 1;
+  width: 350px;
+  max-width: 100%;
+}

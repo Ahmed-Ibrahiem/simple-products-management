@@ -1,0 +1,43 @@
+.quick_add_product_form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.quick_add_product_form form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.quick_add_product_form form > div label {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+.quick_add_product_form form .form_btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.quick_add_product_form form .form_btns button {
+  width: fit-content;
+  padding: 10px;
+  border-radius: var(--roundes-sm);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  align-items: center; 
+  gap: 5px;
+}
+.quick_add_product_form form .form_btns button.valid {
+  background-color: var(--primary);
+  color: var(--primary-forground);
+}
+.quick_add_product_form form .form_btns button.reset_btn,
+.quick_add_product_form form .form_btns button.not_valid {
+  background-color: var(--border);
+  color: var(--gray);
+}
+.quick_add_product_form form .form_btns button.not_valid {
+  cursor: no-drop;
+}
