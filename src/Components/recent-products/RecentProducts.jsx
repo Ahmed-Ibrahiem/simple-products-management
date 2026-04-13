@@ -1,7 +1,7 @@
 import { Component } from "react";
 import "./RecentProducts.css";
 import { ProductsListContext } from "../../Context/ProductsListContext";
-import RecentProductBox from "../Recent Product Box/RecentProductBox";
+import RecentProductBox from "../recent-product-box/RecentProductBox";
 
 class RecentProducts extends Component {
 

@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./GridOfProducts.css";
-import ProductCard from "../Product Card/ProductCard";
+import ProductCard from "../product-card/ProductCard";
 import { ProductsListContext } from "../../Context/ProductsListContext";
 
 class GridOfProducts extends Component {

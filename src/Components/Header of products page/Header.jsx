@@ -20,7 +20,7 @@ class Header extends Component {
             className="add_random_product"
           >
             <i className="fa-solid fa-wand-magic-sparkles"></i>
-            <p>Add Random</p>
+            <p>Add Random Product</p>
           </button>
           <button
             onClick={() => show_confrimation_message(...ProductsList)}

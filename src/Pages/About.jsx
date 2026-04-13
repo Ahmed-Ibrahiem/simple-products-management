@@ -1,6 +1,6 @@
 import { Component } from "react";
-import AboutHeader from "../Components/Header of about page/AboutHeader";
-import ContentOfAbout from "../Components/Content of About page/ContentOfAbout";
+import AboutHeader from "../Components/header-of-about-page/AboutHeader";
+import ContentOfAbout from "../Components/content-of-about-page/ContentOfAbout";
 
 class About extends Component {
   render() {

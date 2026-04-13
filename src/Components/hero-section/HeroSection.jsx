@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./HeroSection.css";
-import PrimaryButton from "../Primary Button/PrimaryButton";
+import PrimaryButton from "../primary-button/PrimaryButton";
 class HeroSection extends Component {
   render() {
     return (

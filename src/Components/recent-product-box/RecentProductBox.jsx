@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./RecentProductBox.css";
-import EditButton from "../Edit Button/EditButton";
+import EditButton from "../edit-button/EditButton";
 
 class RecentProductBox extends Component {
   render() {

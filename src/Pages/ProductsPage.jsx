@@ -1,6 +1,6 @@
 import { Component } from "react";
 import Header from "../Components/Header of products page/Header";
-import SearchAndFilter from "../Components/Search & Filter Section/Search&filter";
+import SearchAndFilter from "../Components/search-and-filter-section/Search&filter";
 import ProductsGrid from "../Components/Products View/Products_view";
 
 

@@ -1,7 +1,7 @@
 import { Component } from "react";
 import "./ProductCard.css";
 import { ProductsListContext } from "../../Context/ProductsListContext";
-import EditButton from "../Edit Button/EditButton";
+import EditButton from "../edit-button/EditButton";
 
 class ProductCard extends Component {
   static contextType = ProductsListContext;

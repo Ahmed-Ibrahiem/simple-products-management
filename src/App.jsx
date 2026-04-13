@@ -4,10 +4,10 @@ import ProductsPage from "./Pages/ProductsPage.jsx";
 import Navbar from "./Components/Navbar/Navbar.jsx";
 import { Route, Routes } from "react-router";
 import About from "./Pages/About.jsx";
-import NewProductFrom from "./Components/Add New Product Form/NewProductFrom.jsx";
+import NewProductFrom from "./Components/add-new-product-form/NewProductFrom.jsx";
 import { productsFormContext } from "./Context/NewProductFromContext.jsx";
-import ConfirmationMessage from "./Components/Confimation Message/ConfirmationMessage.jsx";
-import ProductModificationFrom from "./Components/Product Modification Form/ProductModificationFrom.jsx";
+import ConfirmationMessage from "./Components/confimation-message/ConfirmationMessage.jsx";
+import ProductModificationFrom from "./Components/product-modification-form/ProductModificationFrom.jsx";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

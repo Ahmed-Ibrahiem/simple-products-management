@@ -1,7 +1,7 @@
 import { Component } from "react";
-import ProductsSection from "../Components/Products Section/ProductsSection";
-import StatesCards from "../Components/States Cards/StatesCards";
-import HeroSection from "../Components/Hero Section/HeroSection";
+import ProductsSection from "../Components/products-section/ProductsSection";
+import StatesCards from "../Components/states-cards/StatesCards";
+import HeroSection from "../Components/hero-section/HeroSection";
 
 class Home extends Component {
   render() {

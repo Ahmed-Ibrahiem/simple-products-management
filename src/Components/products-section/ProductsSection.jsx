@@ -1,7 +1,7 @@
 import { Component } from "react";
 import "./ProductsSection.css";
-import QuickAddProductForm from "../Quick Add Product Form/QuickAddProductForm";
-import RecentProducts from "../Recent Products/RecentProducts";
+import QuickAddProductForm from "../quick-add-product-form/QuickAddProductForm";
+import RecentProducts from "../recent-products/RecentProducts";
 
 
 class ProductsSection extends Component {

@@ -1,8 +1,8 @@
 import { Component } from "react";
 import "./Search&filter.css";
-import PriceRange from "../Sort Options/PriceRange";
+import PriceRange from "../sort-options/PriceRange.jsx";
 import SortProducts from "../Sort Products/SortProducts.jsx";
-import SearchBox from "../Search Box/SearchBox";
+import SearchBox from "../search-box/SearchBox.jsx";
 import { ProductsListContext } from "../../Context/ProductsListContext";
 
 

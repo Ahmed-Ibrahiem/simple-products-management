@@ -1,16 +1,21 @@
 import { Component } from "react";
 import "./ProductsGrid.css";
-import GridOfProducts from "../Grid Products/GridOfProducts";
+import GridOfProducts from "../grid-products/GridOfProducts";
 import Pagination from "../Pagination/Pagination";
 import { ProductsListContext } from "../../Context/ProductsListContext";
-import PrimaryButton from "../Primary Button/PrimaryButton";
+import PrimaryButton from "../primary-button/PrimaryButton";
 
 class ProductsGrid extends Component {
   static contextType = ProductsListContext;
 
   render() {
-    const { ProductsList, filterProducts,  isLoading, isWrong, getPriceOfAllProducts } =
-      this.context;
+    const {
+      ProductsList,
+      filterProducts,
+      isLoading,
+      isWrong,
+      getPriceOfAllProducts,
+    } = this.context;
 
     const productsPrice = getPriceOfAllProducts();
 
