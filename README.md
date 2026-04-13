@@ -41,5 +41,5 @@ The app uses **dummy/fake data** for products (no real API).
 
 1. Clone this repository:
    ```bash
-   git clone 
+   git clone git clone https://github.com/Ahmed-Ibrahiem/simple-products-management.git
    ```t
